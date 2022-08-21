@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Smol game</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <script type="module">
+      import init, {run} from './pkg/rust_game.js'
+
+      init().then(run).catch(console.error);
+    </script>
+  </body>
+</html>
