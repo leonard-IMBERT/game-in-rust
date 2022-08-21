@@ -33,6 +33,6 @@ $ python3 -m http.server
  - [ ] Global drawer
  - [ ] Physic engine (/!\ functional paradigm)
  - [ ] Design an actual game
-  - [ ] Implement it
+   - [ ] Implement it
  - [ ] Play the game
  - [ ] Document the code
